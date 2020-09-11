@@ -1,5 +1,5 @@
 {
-  "name": "watcher-builder",
+  "name": "watcher-builder-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
