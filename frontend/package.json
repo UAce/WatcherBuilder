@@ -1,7 +1,9 @@
 {
   "name": "watcher-builder-frontend",
+  "description": "The watcher-builder-frontend is a web application that lets users build website watchers",
   "version": "0.1.0",
-  "private": true,
+  "author": "Yu-Yueh Liu",
+  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
