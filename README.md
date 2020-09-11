@@ -1,2 +1,2 @@
 # WatcherBuilder
-A web application that lets you build a watcher and track websites.
+A web application that lets you build watchers and track websites.
