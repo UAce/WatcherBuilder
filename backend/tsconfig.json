@@ -3,11 +3,21 @@
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "es6",
+        "noImplicitAny": true,
         "moduleResolution": "node",
+        "resolveJsonModule": true,
         "sourceMap": true,
-        "outDir": "dist"
+        "outDir": "./dist",
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ]
     },
     "lib": [
         "es2015"
+    ],
+    "include": [
+        "src/**/*",
+        "types"
     ]
 }

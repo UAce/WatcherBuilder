@@ -1,12 +1,12 @@
 import express from 'express';
 
 const app = express();
-const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('The sedulous hyena ate the antelope!');
+    res.send('Hello World');
 });
 
+const port = process.env.port || '4000';
 app.listen(port, () => {
-    return console.log(`server is listening on ${port}`);
+    console.log(`Server is running on http://localhost:${port}`);
 });
